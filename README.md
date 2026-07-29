@@ -129,24 +129,24 @@ This confirms that the repository was successfully initialized.
 **Figure 2:** Git repository initialized.
 
 ![git init](screenshots/02-git-init.png)
-```
 
-### Outcome
+ ### **Outcome**
 
 A local Git repository was successfully created, enabling version control for the project and preparing it for future commits and GitHub deployment.
 
 ---
-## 📄 Step 3 — Create the Project Files
+## **📄 Step 3 — Create the Project Files**
 
-### Objective
+### **Objective**
 
 Create the project files and directories required for the WordPress Docker Compose deployment and documentation.
 
-### Commands Executed
+### **Commands Executed**
 
 ```bash
-touch README.md CHANGELOG.md .gitignore docker-compose.yml
-mkdir screenshots
+
+touch README.md docker-compose.yml
+
 ```
 
 ### Explanation
@@ -154,9 +154,7 @@ mkdir screenshots
 The following files and directory were created:
 
 - `README.md` – Documents the project, deployment process, and outcomes.
-- `CHANGELOG.md` – Records significant project updates and revisions.
-- `.gitignore` – Specifies files and directories that Git should ignore.
-- `docker-compose.yml` – Defines the Docker Compose configuration for deploying the WordPress and MySQL services.
+- `compose.yml` – Defines the Docker Compose configuration for deploying the WordPress and MySQL services.
 - `screenshots/` – Stores screenshots captured throughout the deployment process.
 
 Creating these resources before deployment ensures that the project remains organized and that documentation is maintained alongside development.
@@ -166,11 +164,9 @@ Creating these resources before deployment ensures that the project remains orga
 The project structure was verified in Visual Studio Code, confirming that all required files and the `screenshots` directory were successfully created.
 
 ### Screenshot
-**Figure 3:** Project files opened in Visual Studio Code.
+**Figure 3:** Project files in the Docker Compose project directory.
 
-![Project files](screenshots/03-porject-files.png )
-
-### Outcome
+![Project Files](screenshots/03-project-files.png)
 
 The project structure was successfully prepared, providing a well-organized workspace for the Docker Compose deployment and supporting documentation.
 
