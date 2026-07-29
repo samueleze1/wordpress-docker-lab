@@ -52,8 +52,6 @@ wordpress-docker-lab
 │
 ├── docker-compose.yml
 ├── README.md
-├── CHANGELOG.md
-├── .gitignore
 └── screenshots/
 ```
 
@@ -480,8 +478,6 @@ wordpress-docker-lab
 │
 ├── docker-compose.yml
 ├── README.md
-├── CHANGELOG.md
-├── .gitignore
 └── screenshots
     ├── 01-project-folder.png
     ├── 02-git-init.png
