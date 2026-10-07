@@ -1,6 +1,6 @@
-# 🐳 WordPress Deployment Using Docker Compose
+#  WordPress Deployment Using Docker Compose
 
-## 📋 Project Overview
+##  Project Overview
 
 This project demonstrates how to deploy a multi-container WordPress application using Docker Compose.
 
@@ -15,7 +15,7 @@ Throughout this project, Git was used for version control, and the completed pro
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Docker
 - Docker Compose
@@ -27,7 +27,7 @@ Throughout this project, Git was used for version control, and the completed pro
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 Before starting this project, ensure the following software is installed:
 
@@ -45,7 +45,7 @@ git --version
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 wordpress-docker-lab
@@ -57,8 +57,8 @@ wordpress-docker-lab
 
 ---
 
-# 🚧 Deployment Steps
-## 📂 Step 1 — Create the Project Directory
+#  Deployment Steps
+##  Step 1 — Create the Project Directory
 
 ### Objective
 
@@ -97,7 +97,7 @@ The project folder was successfully opened in Visual Studio Code, and the Explor
 A dedicated project workspace was successfully created and prepared for the WordPress Docker Compose deployment.
 
 ---
-## 🔧 Step 2 — Initialize the Git Repository
+##  Step 2 — Initialize the Git Repository
 
 ### Objective
 
@@ -135,7 +135,7 @@ This confirms that the repository was successfully initialized.
 A local Git repository was successfully created, enabling version control for the project and preparing it for future commits and GitHub deployment.
 
 ---
-## **📄 Step 3 — Create the Project Files**
+## ** Step 3 — Create the Project Files**
 
 ### **Objective**
 
@@ -171,7 +171,7 @@ The project structure was verified in Visual Studio Code, confirming that all re
 The project structure was successfully prepared, providing a well-organized workspace for the Docker Compose deployment and supporting documentation.
 
 ---
-## ⚙️ Step 4 — Configure Docker Compose
+##  Step 4 — Configure Docker Compose
 
 ### Objective
 
@@ -216,7 +216,7 @@ EOF
 ```
 
 ---
-## 🚀 Step 5 — Deploy the WordPress Stack
+##  Step 5 — Deploy the WordPress Stack
 
 ### Objective
 
@@ -252,7 +252,7 @@ The deployment completed successfully, and Docker created the required container
 The WordPress application stack was successfully deployed using Docker Compose, with both the WordPress and MySQL services running as containers.
 
 ---
-## 🔍 Step 6 — Verify the Running Containers
+##  Step 6 — Verify the Running Containers
 
 ### Objective
 
@@ -289,7 +289,7 @@ The output displayed both containers with a status of **Up**, confirming that th
 The WordPress and MySQL containers were successfully deployed and verified to be running, confirming that the Docker Compose configuration was functioning as expected.
 
 ---
-## 📜 Step 7 — Inspect Container Logs
+##  Step 7 — Inspect Container Logs
 
 ### Objective
 
@@ -355,7 +355,7 @@ The logs displayed in Docker Desktop matched the output produced by the Docker C
 Both the Docker CLI and Docker Desktop confirmed that the WordPress and MySQL containers initialized successfully and were operating as expected.
 
 ---
-## 🧹 Step 8 — Remove the Deployment
+##  Step 8 — Remove the Deployment
 
 ### Objective
 
@@ -415,7 +415,7 @@ Docker Desktop was opened to verify that:
 The Docker Compose deployment and all associated resources, including the persistent Docker volumes, were successfully removed, restoring the environment to a clean state.
 
 ---
-## 🐞 Troubleshooting
+##  Troubleshooting
 
 | Issue | Cause | Resolution |
 |--------|-------|------------|
@@ -423,7 +423,7 @@ The Docker Compose deployment and all associated resources, including the persis
 | Containers failed to start | Incorrect Docker Compose configuration | Reviewed and corrected the `docker-compose.yml` file. |
 | Unable to access WordPress | Containers were still starting | Waited for the MySQL service to initialize before refreshing the browser. |
 
-## 🎓 Lessons Learned
+##  Lessons Learned
 
 Through this project, I learned how to:
 
@@ -435,13 +435,13 @@ Through this project, I learned how to:
 - Remove containers, networks, and volumes to restore a clean environment.
 - Track project progress using Git before publishing to GitHub.
 
-## ✅ Conclusion
+##  Conclusion
 
 This project successfully demonstrated the deployment and management of a multi-container WordPress application using Docker Compose.
 
 The deployment included container orchestration, persistent storage, service verification, log inspection, and complete environment cleanup. Throughout the project, Git was used for version control, and the completed solution was prepared for publication on GitHub as part of a Cloud and DevOps portfolio.
 
-## 🐙 Publish to GitHub
+##  Publish to GitHub
 
 ### Stage Changes
 
@@ -467,7 +467,7 @@ git remote add origin https://github.com/samueleze1/wordpress-docker-lab.git
 git branch -M main
 git push -u origin main
 ```
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 wordpress-docker-lab
